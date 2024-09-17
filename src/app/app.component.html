@@ -1,4 +1,26 @@
 <app-header />
-
-
-<router-outlet />
+<div
+  style="
+    background-image: url('/bullet.png');
+    height: calc(100vh - 142px);
+    display: flex;
+    justify-content: end;
+  "
+>
+  <div
+    class="logo-container"
+    style="
+      display: inherit;
+      justify-content: center;
+      align-items: center;
+      padding: 0 120px 0 0;
+      flex-direction: column;
+    "
+  >
+    <img src="/bulletLogo.png" alt="logo" style="width: 400px" />
+    <div class="btn-container" style="display: inherit; gap: 20px;">
+      <button class="btn">Download</button>
+      <button class="btn">Saiba mais</button>
+    </div>
+  </div>
+</div>
